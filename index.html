@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gewichtstagebuch</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Gewichtstagebuch</h1>
+    <form>
+      <label for="date">Datum:</label>
+      <input type="date" id="date" name="date"><br><br>
+      <label for="weight">Gewicht:</label>
+      <input type="number" id="weight" name="weight" placeholder="in Kilogramm"><br><br>
+      <input type="button" value="Hinzufügen" onclick="addWeight()">
+    </form>
+    <div id="weightList"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
